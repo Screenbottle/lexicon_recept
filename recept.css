@@ -1,0 +1,64 @@
+body {
+    background-color: #A100004D;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+}
+
+#article {
+    background-color: white;
+    margin: auto;
+    padding-top: 0;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+
+}
+
+#content {
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+
+
+#servering {
+  max-width: 500px;
+  margin: auto;
+}
+
+#servering > img {
+    margin: 10px;
+}
+
+#pannkakor1 {
+    max-width: 1280px;
+    min-height: 500px;
+}
+
+#subheader {
+    background-color: #EBEBEB;
+    padding: 10px;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#main_header {
+    color: #A10000;
+}
+
+@media (max-width: 1000px) {
+  #servering {
+    flex-direction: column;
+    max-width: 80%;
+  }
+}
